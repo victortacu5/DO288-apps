@@ -1,5 +1,5 @@
 
-FROM mysql:latest
+FROM mysql:14
 ENV MYSQL_HOST localhost
 ENV MYSQL_DATABASE test
 ENV MYSQL_USER victor
