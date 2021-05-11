@@ -7,10 +7,10 @@ const app = express()
 const port = 3000
 app.get('/', (req, res) =>{
 var con = mysql.createConnection({
+database: 'cnfmap.openshift7.cm',
 host: 'cnfmap.openshift7.cm',
-user: 'cnfmap.openshift7.cm',
 password: 'cnfmap.openshift7.cm',
-database: 'cnfmap.openshift7.cm'
+user: 'cnfmap.openshift7.cm'
 });
 con.connect(function(err) {
  if (err) throw err;
