@@ -7,7 +7,7 @@ const app = express()
 const port = 3000
 app.get('/', (req, res) =>{
 var con = mysql.createConnection({
- host: 'dbtest6.openshift7.svc',
+ host: 'dbtest.openshift7.svc',
  user: 'victor',
  password: 'victor',
  database: 'test'
